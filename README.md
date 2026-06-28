@@ -12,4 +12,4 @@ Slapcode's [Discord](https://discord.gg/xKhQ5EEq5e) hosts support, a changelog, 
 
 Installation
 -
-Slapcode is exclusively developed using Roblox Studio, so it can only be downloaded as a .rbxm. To install it, download Slapcode.rbxm from the files above and insert it into ServerScriptService. (Click it and then click 'View raw data'.)
+Slapcode is exclusively developed using Roblox Studio, so it can only be downloaded as a .rbxm. To install it, download Slapcode.rbxm from the files above and insert it into ServerScriptService. (Click it and then click 'View raw'.)
