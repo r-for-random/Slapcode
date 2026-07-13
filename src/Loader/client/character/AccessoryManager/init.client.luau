@@ -22,7 +22,7 @@ if not config.Customization then
 	return
 end
 
-local handles = require(script.Handles)
+local handles = require(script:WaitForChild("Handles"))
 
 local TweenService = game:GetService("TweenService")
 local tweenInfo = TweenInfo.new(config.MenuSlideTime, Enum.EasingStyle.Cubic, Enum.EasingDirection.Out)
