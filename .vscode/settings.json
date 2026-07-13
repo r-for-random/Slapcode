@@ -1,0 +1,52 @@
+{
+	"luau-lsp.ignoreGlobs": [
+		"**/_Index/**",
+		"**/Packages/**",
+		"**/**.d.luau",
+		"**/**.d.lua",
+		"**/node_modules/**"
+	],
+	"luau-lsp.completion.imports.ignoreGlobs": [
+		"Packages/_Index/**",
+		"ServerPackages/_Index/**",
+		"**/**.d.luau",
+		"**/**.d.lua",
+		"**/node_modules/**"
+	],
+
+	"charmed-icons.associations.extensions": {
+		// typedefs
+		"types.luau": "luau-def",
+		// header file
+		"h.luau": "luau-def",
+		// bench file
+		"spec.luau": "test-blue"
+	},
+	"charmed-icons.associations.files": {
+		// typedefs
+		"types.luau": "luau-def",
+		// inits
+		"init.luau": "julia",
+		"init.server.luau": "julia",
+		"init.client.luau": "julia"
+	},
+	"charmed-icons.associations.folders": {
+		// docs / readme as storybook
+		"_README": "folder_storybook",
+		"docs": "folder_storybook"
+	},
+
+	"[lua]": {
+		"editor.defaultFormatter": "JohnnyMorganz.stylua",
+		"editor.formatOnSave": true
+	},
+	"[luau]": {
+		"editor.defaultFormatter": "JohnnyMorganz.stylua",
+		"editor.formatOnSave": true
+	},
+
+	"roblox-ui.explorer.customIconDir": "",
+	"roblox-ui.explorer.showClassNames": true,
+	"roblox-ui.explorer.showDataModel": true,
+	"roblox-ui.explorer.showFilePaths": true
+}
