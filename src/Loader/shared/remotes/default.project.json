@@ -1,0 +1,59 @@
+{
+	"name": "remotes",
+	"tree": {
+		"$className": "Folder",
+
+		"HideMenu": { "$className": "BindableEvent" },
+
+		"CustomizationRemotes": {
+			"$className": "Folder",
+
+			"AddGuid": { "$className": "RemoteFunction" },
+			"ListSaves": { "$className": "RemoteFunction" },
+			"Load": { "$className": "RemoteFunction" },
+			"MaxAccessories": { "$className": "RemoteFunction" },
+			"RotateWeld": { "$className": "RemoteFunction" },
+			"Save": { "$className": "RemoteFunction" },
+			"SizeWeld": { "$className": "RemoteFunction" },
+			"Texture": { "$className": "RemoteFunction" },
+			"TranslateWeld": { "$className": "RemoteFunction" },
+
+			"AccessoryMoved": { "$className": "BindableEvent" },
+			"AccessoryRotated": { "$className": "BindableEvent" },
+			"AccessorySized": { "$className": "BindableEvent" },
+			"HideAllSubMenus": { "$className": "BindableEvent" },
+
+			"AddAccessoryLabel": { "$className": "RemoteEvent" },
+			"Delete": { "$className": "RemoteEvent" },
+			"DeleteSave": { "$className": "RemoteEvent" },
+			"LoadSave": { "$className": "RemoteEvent" },
+			"SetCharacterSize": { "$className": "RemoteEvent" },
+			"SetSkinColor": { "$className": "RemoteEvent" },
+			"SetTransparency": { "$className": "RemoteEvent" },
+			"SetWeld": { "$className": "RemoteEvent" }
+		},
+
+		"DiceRemotes": {
+			"$className": "Folder",
+
+			"HideAllSubMenus": { "$className": "BindableEvent" },
+
+			"RollDice": { "$className": "RemoteEvent" }
+		},
+
+		"NameRemotes": {
+			"$className": "Folder",
+
+			"CreateNametag": { "$className": "RemoteEvent" },
+			"DestroyNametag": { "$className": "RemoteEvent" },
+			"SendCooldown": { "$className": "RemoteEvent" },
+			"UpdateNametag": { "$className": "RemoteEvent" }
+		},
+
+		"OOCRemotes": {
+			"$className": "Folder",
+
+			"ToggleOOC": { "$className": "RemoteEvent" }
+		}
+	}
+}
