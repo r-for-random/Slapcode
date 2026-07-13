@@ -1,6 +1,7 @@
-Slapcode
--
+# Slapcode
+
 Slapcode is a comprehensive roleplay game framework I made to help my friends host roleplays on Roblox. It's free and open-source. At the moment, its features include:
+
 - Character customization (R6 only)
 - Naming
 - Dice
@@ -10,6 +11,10 @@ The system is built to be customized. There's a laundry list of things that deve
 
 Slapcode's [Discord](https://discord.gg/xKhQ5EEq5e) hosts support, a changelog, suggestions and more.
 
-Installation
--
-Slapcode is exclusively developed using Roblox Studio, so it can only be downloaded as a .rbxm. To install it, download Slapcode.rbxm from the Releases menu and insert it into ServerScriptService. (Click it and then click 'View raw'.)
+## Installation
+
+Slapcode.rbxm
+
+## Developing
+
+Ensure you have rokit installed, then run `rokit install` to install all tools. Use `rojo build` to build the plugin, or `rojo serve test.project.json` to use in Studio.
